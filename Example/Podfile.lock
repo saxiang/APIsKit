@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - APIsKit (1):
+    - cheungKit
+  - cheungKit (8):
+    - AFNetworking (~> 3)
+
+DEPENDENCIES:
+  - APIsKit (from `../`)
+  - cheungKit (from `../../cheungKit`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  APIsKit:
+    :path: "../"
+  cheungKit:
+    :path: "../../cheungKit"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  APIsKit: c8a78bf0cd5b74fe3154f0593edcd0660079d469
+  cheungKit: 844f541775caf4fb1fcd291eaa982578b23426b5
+
+PODFILE CHECKSUM: 7b35411c54417245f99b9fa845f4a4216422b507
+
+COCOAPODS: 1.11.2
