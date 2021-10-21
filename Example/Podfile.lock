@@ -21,23 +21,23 @@ PODS:
 
 DEPENDENCIES:
   - APIsKit (from `../`)
-  - cheungKit (from `../../cheungKit`)
+  - cheungKit
 
 SPEC REPOS:
-  trunk:
+  https://github.com/saxiang/FSSpecs.git:
+    - cheungKit
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
 
 EXTERNAL SOURCES:
   APIsKit:
     :path: "../"
-  cheungKit:
-    :path: "../../cheungKit"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   APIsKit: 1609ad91a200f622038675065a6feeaf4e0fc5bd
-  cheungKit: 844f541775caf4fb1fcd291eaa982578b23426b5
+  cheungKit: dca4879383b13b5fed3d18d5c23c8e489304cca6
 
-PODFILE CHECKSUM: 5301d1161358611ab9f8379e6abba29865162b75
+PODFILE CHECKSUM: c80a883e16f1c07fef2cff03724c0d5d7b71f50b
 
 COCOAPODS: 1.11.2
