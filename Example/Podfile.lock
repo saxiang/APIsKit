@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - APIsKit (1):
+  - APIsKit (3):
     - cheungKit
   - cheungKit (8):
     - AFNetworking (~> 3)
@@ -35,9 +35,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  APIsKit: c8a78bf0cd5b74fe3154f0593edcd0660079d469
+  APIsKit: 1609ad91a200f622038675065a6feeaf4e0fc5bd
   cheungKit: 844f541775caf4fb1fcd291eaa982578b23426b5
 
-PODFILE CHECKSUM: 9ea33d51b07c073b2b18d1f79eecfd07c23bc21c
+PODFILE CHECKSUM: 5301d1161358611ab9f8379e6abba29865162b75
 
 COCOAPODS: 1.11.2

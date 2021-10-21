@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APIsKit'
-  s.version          = '2'
+  s.version          = '3'
   s.summary          = 'A short description of APIsKit.'
 
 # This description is used to generate tags and improve search results.
