@@ -14,30 +14,35 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - APIsKit (5):
+  - APIsKit (6):
     - cheungKit
-  - cheungKit (8):
+  - cheungKit (9):
     - AFNetworking (~> 3)
 
 DEPENDENCIES:
   - APIsKit (from `../`)
-  - cheungKit
+  - cheungKit (from `https://github.com/saxiang/cheungKit.git`)
 
 SPEC REPOS:
-  https://github.com/saxiang/FSSpecs.git:
-    - cheungKit
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
 
 EXTERNAL SOURCES:
   APIsKit:
     :path: "../"
+  cheungKit:
+    :git: https://github.com/saxiang/cheungKit.git
+
+CHECKOUT OPTIONS:
+  cheungKit:
+    :commit: 76cede8f2aadf4e5a29aa5cfa1645f4521cef416
+    :git: https://github.com/saxiang/cheungKit.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  APIsKit: debe878c1c09f9e3286055a7d3a5463b00e36abb
-  cheungKit: dca4879383b13b5fed3d18d5c23c8e489304cca6
+  APIsKit: 8ed9f33132548259e085037304db0e2f8487d85f
+  cheungKit: 18e8941aebf7f6afde0f42edbcb8c0a8101092e1
 
-PODFILE CHECKSUM: c80a883e16f1c07fef2cff03724c0d5d7b71f50b
+PODFILE CHECKSUM: 68331d3c865291ce54c1e2fe414861b137365591
 
 COCOAPODS: 1.11.2
