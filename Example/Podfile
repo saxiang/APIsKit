@@ -1,3 +1,5 @@
+source 'https://github.com/saxiang/FSSpecs.git'
+
 use_frameworks!
 
 platform :ios, '9.0'
