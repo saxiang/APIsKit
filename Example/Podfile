@@ -7,8 +7,8 @@ platform :ios, '9.0'
 
 target 'APIsKit_Example' do
   pod 'APIsKit', :path => '../'
-#  pod 'cheungKit', :git => "https://github.com/saxiang/cheungKit.git"
-  pod 'cheungKitTemp'
+  pod 'cheungKit'
+#  pod 'cheungKitTemp'
   target 'APIsKit_Tests' do
     inherit! :search_paths
 

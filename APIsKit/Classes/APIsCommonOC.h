@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface APIsCommonOC : NSObject
 +(void)testDependency_showImgInView:(UIView *)view andFrame:(CGRect)frame;
+-(void)testFunction;
 @end
 
 NS_ASSUME_NONNULL_END
