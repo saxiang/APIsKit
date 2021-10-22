@@ -11,7 +11,9 @@
 
 @implementation APIsCommonOC
 +(void)testDependency_showImgInView:(UIView *)view andFrame:(CGRect)frame {
-    UIImage *testImg = [UIImage fs_imagePathWithName:@"IMG_1134" bundle:@"APIsKit" targetClass:[self class]];
+    int ran = arc4random();
+    NSString *picName = ran % 2 == 0 ? @"avatar_default_dark" : @"scbigsel";
+    UIImage *testImg = [UIImage fs_imagePathWithName:picName bundle:@"APIsKit" targetClass:[self class]];
     UIImageView *imgView = [[UIImageView alloc] initWithImage:testImg];
     imgView.backgroundColor = UIColor.redColor;
     imgView.frame = frame;
